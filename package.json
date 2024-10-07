@@ -1,5 +1,5 @@
 {
-  "name": "custom-react-hooks",
+  "name": "hooks-library-react",
   "version": "1.0.0",
   "description": "Different react hooks",
   "main": "src/index.js",
