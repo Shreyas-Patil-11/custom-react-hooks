@@ -1,12 +1,12 @@
 # hooks-library-react
 
-##Package
+## Package
 ```
 npm i hooks-library-react
 ```
 ---
 
-##useDataFetch
+## useDataFetch
 The useDataFetch hook allows you to fetch data from a given URL and manage the loading and error states effectively. It is ideal for simple data fetching in functional components.
 Usage
 ```
@@ -23,7 +23,7 @@ error: An error object if an error occurs during the fetching process.
 
 ---
 
-##useDebounce
+## useDebounce
 The useDebounce hook delays the update of a value until after a specified delay, which is useful for reducing the number of API calls or re-renders, especially when dealing with input fields or search bars.
 Usage:
 ```
@@ -39,7 +39,7 @@ debouncedValue: The debounced value, which only updates after the specified dela
 
 ---
 
-##useLocalStorage
+## useLocalStorage
 The useLocalStorage hook allows you to manage and persist state in localStorage, which is useful for storing user preferences, session data, or other values that need to be persistent even after page refreshes.
 Usage:
 ```
@@ -56,7 +56,7 @@ setStoredValue: A function to update and store a new value in localStorage.
 
 ---
 
-##usePrevious
+## usePrevious
 The usePrevious hook stores the previous value of a state or prop, which can be useful for tracking changes or making comparisons over time.
 Usage:
 ```
